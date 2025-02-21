@@ -1,5 +1,6 @@
 'use client';
 import Description from '@/components/client/description/description';
+import Events from '@/components/client/events/events';
 import Landing from '@/components/client/landing/landing';
 import Loader from '@/components/client/preloader/loader';
 import { AnimatePresence } from 'framer-motion';
@@ -25,6 +26,7 @@ export default function Home() {
       </AnimatePresence>
       <Landing />
       <Description />
+      <Events />
     </main>
   );
 }
