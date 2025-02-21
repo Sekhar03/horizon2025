@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import { useRef, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -44,11 +43,12 @@ export default function Landing() {
 
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className="relative flex h-screen overflow-hidden">
-      <Image 
-        src="/images/background.jpg"
-        fill={true}
-        alt="background"
-        className="object-cover"
+      <video 
+        src='/videos/video1.mp4'
+        autoPlay
+        loop
+        muted
+        className='h-full w-full object-fill'
       />
       <div className="absolute top-[calc(100vh-350px)]">
         <div ref={slider} className="relative whitespace-nowrap">
