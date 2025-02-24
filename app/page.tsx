@@ -4,6 +4,7 @@ import Events from '@/components/client/events/events';
 import { Gallery } from '@/components/client/gallery/Gallery';
 import Landing from '@/components/client/landing/landing';
 import Loader from '@/components/client/preloader/loader';
+import { Testimonials } from '@/components/client/testimonial/testimonial';
 
 import { AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
@@ -30,6 +31,7 @@ export default function Home() {
       <Description />
       <Events />
       <Gallery />
+      <Testimonials />
     </main>
   );
 }
