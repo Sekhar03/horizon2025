@@ -5,6 +5,7 @@ import Events from '@/components/client/events/events';
 import Landing from '@/components/client/landing/landing';
 import Loader from '@/components/client/preloader/loader';
 import SlidingImages from '@/components/client/slider/SlidingImages';
+import Lanyard from '@/components/lanyard/lanyard';
 import { AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
@@ -31,6 +32,7 @@ export default function Home() {
       <Events />
       <SlidingImages />
       <Contact />
+      <Lanyard />
     </main>
   );
 }
