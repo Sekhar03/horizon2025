@@ -433,7 +433,7 @@ const literaryEvents = [
     description: "The Trivia Quiz is an intellectually stimulating event that challenges participants' knowledge across various subjects, from history and science to literature and current affairs.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/Z4BDyYoet6tRyq7r5",
-    rulebookLink: "https://drive.google.com/file/d/1tnqdqBwygCXPJOmzQD77lmz_h6G78bV9/view?usp=drive_link"
+    rulebookLink: "https://drive.google.com/file/d/1tnqdqBwygCXPJOmzQD77lmz_h6G78bV9/view?usp=drivesdk"
   },
   {
     number: 7,
