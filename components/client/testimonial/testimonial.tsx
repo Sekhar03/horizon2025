@@ -11,19 +11,19 @@ const data = [
       <div className="space-y-4">
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Technical Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-          <li>CAD-E-THON (10:00 AM - New Building)</li>
-          <li>TechQuiz (10:00 AM - New Building, Hall 3)</li>
+          <li>Tech event Inauguration (9:00 AM - New Building, arena)</li>
+          <li>Steel Sprint(1st Round) (12:00 PM - New Building,arena)</li>
+          <li>Fastduino (10:00 AM - New Building, Hall 3)</li>
           <li>Guess The Logo (11:00 AM - New Building, Room 401, 402)</li>
-          <li>Hackathon (2:00 PM - New Building, Hall 3)</li>
-          <li>BlindCode (2:00 PM - New Building, Room 401, 402)</li>
-          <li>Code Craft (3:00 PM - New Building, Hall 3)</li>
+          <li>Hackathon(Start) (6:00 PM - New Building, Hall 3)</li>
+          <li>Robo Stricker (10:00 AM - New Building, arena)</li>
+          <li>d bug-it (2:00 PM - New Building, Hall 3)</li>
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Cultural Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
           <li>Flash Mob (4:30 PM - SBI Front)</li>
           <li>Heritage Dance (5:00 PM - Stage)</li>
-          <li>IPL Auction (6:00 PM - New Building, Hall 3)</li>
           <li>Nukkad (6:30 PM - Mushi Square)</li>
           <li>Choreo Clash (7:30 PM - Stage)</li>
         </ul>
@@ -60,15 +60,20 @@ const data = [
       <div className="space-y-4">
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Technical Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-          <li>SteelSprint (10:00 AM - New Building)</li>
+          <li>Steel Sprint(Final Round) (9:00 AM - New Building, arena)</li>
           <li>DronaMaster (10:00 AM - MP Memorial Stadium)</li>
+          <li>Steel Push (12:00 PM - New Building, arena)</li>
+          <li>Hackathon(End) (8:00 AM - New Building, Hall 3)</li>
           <li>Ideathon (10:00 AM - New Building, Hall 3)</li>
+          <li>Ipl Auction (11:00 AM - New Building, Room 401, 402)</li>
+          <li>Code Craft (3:00 PM - New Building, Hall 3)</li>
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Cultural Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
           <li>Nachbaliye (6:30 PM - Stage)</li>
           <li>Debonair (7:30 PM - Stage)</li>
+          
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
@@ -101,9 +106,10 @@ const data = [
       <div className="space-y-4">
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Technical Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-          <li>RoboStriker (11:00 AM - New Building)</li>
-          <li>SteelPush (10:00 AM - New Building, Hall 3)</li>
-          <li>D Bug it (2:00 PM - New Building, Room 401, 402)</li>
+          <li>Blind Code (2:00 PM - New Building, Hall 3)</li>
+          <li>SteelPush(Final Round) (2:00 PM - New Building, arena)</li>
+          <li>Tech quiz (10:00 AM - New Building, Room 401, 402)</li>
+          <li>CAD-E-THON(11:00 AM - New Building, Hall 3)</li>
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
