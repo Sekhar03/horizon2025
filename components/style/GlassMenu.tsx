@@ -7,7 +7,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 interface MenuItemProps {
-  link: string;
   text: string;
   image: string;
   posterImage: string;
@@ -31,8 +30,7 @@ const GlassMenu: React.FC<GlassMenuProps> = ({ items = [] }) => {
   );
 };
 
-const MenuItem: React.FC<MenuItemProps> = ({ 
-  link, 
+const MenuItem: React.FC<MenuItemProps> = ({  
   text, 
   image, 
   posterImage, 
