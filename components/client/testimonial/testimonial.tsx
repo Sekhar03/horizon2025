@@ -28,16 +28,13 @@ const data = [
           <li>Heritage Dance (5:00 PM - Stage)</li>
           <li>Nukkad (6:30 PM - Mushi Square)</li>
           <li>Grafitti (2:00 PM - Old Building)</li>
-          
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
           <li>Scavenger Hunt (10:00 AM - Dome)</li>
           <li>Mystery Room (11:00 AM - Educate Room)</li>
-          
           <li>Digital Duel (Online)</li>
-          
           <li>Tug Of War (2:00 PM - Production Seminar Hall)</li>
           <li>Paper Dance (2:00 PM - Auditorium)</li>
           <li>Brust The Balloon (2:00 PM - Dome)</li>
@@ -74,20 +71,14 @@ const data = [
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Cultural Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-          
-          
           <li>AI Art Competition (Online)</li>
           <li>Merchandise Design (Online)</li>
-          
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
           <li>Rubik&apos;s Cube (9:00 AM - Educate Room)</li>
-          
           <li>Doodling (11:00 AM - New Building, Room 103)</li>
-          
-          
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Literary Events</h3>
@@ -124,7 +115,6 @@ const data = [
            <li>Photo Of The Day (Online)</li>
            <li>Flash Film</li>
            <li>Short Film Competition (10:00 AM)</li>
-
         </ul>
 
 
@@ -132,7 +122,6 @@ const data = [
         <ul className="list-disc pl-5 text-gray-300">
           <li>Gully Cricket (8:00 AM - MP Memorial Stadium)</li>
           <li>Destiny Duo (9:00 AM - New Building)</li>
-          
           <li>Wordless Wonders (8:00 AM - Dome)</li>
         </ul>
         
