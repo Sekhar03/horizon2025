@@ -374,30 +374,10 @@ class App {
         image: "/static/8.jpg",
       },
       {
-        image: `https://picsum.photos/seed/16/800/600?grayscale`,
+        image: "/static/11.jpg",
       },
       {
-        image: `https://picsum.photos/seed/17/800/600?grayscale`,
-        
-      },
-      {
-        image: `https://picsum.photos/seed/8/800/600?grayscale`,
-        
-      },
-      {
-        image: `https://picsum.photos/seed/9/800/600?grayscale`,
-        
-      },
-      {
-        image: `https://picsum.photos/seed/10/800/600?grayscale`,
-        
-      },
-      {
-        image: `https://picsum.photos/seed/21/800/600?grayscale`,
-        
-      },
-      {
-        image: `https://picsum.photos/seed/12/800/600?grayscale`,
+        image: "/static/12.jpg",
         
       },
     ];

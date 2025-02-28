@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
@@ -10,8 +11,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
           {/* About Section */}
-          <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4">About Horizon</h3>
+          <div className="text-center md:text-left space-y-2">
+            <div className="flex justify-center md:justify-start">
+              <Image src={"/logos/igit_logo.png"} width={70} height={70} alt='igit logo'/>
+            </div>
+            <h3 className="text-xl text-brand font-bold mb-4">Indira Gandhi Institute of Technology, Sarang</h3>
             <p className="text-sm">
               Horizon is the annual techno-cultural fest of IGIT Sarang, 
               bringing together talent, innovation, and creativity.
