@@ -90,6 +90,144 @@ const funEvents = [
   }
 ]
 
+const techEvents = [
+  {
+    number: 1,
+    text: "Steel Push",
+    image: "/images/cars/mercedes.png",
+    posterImage: "/images/posters/steel_push.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 2,
+    text: "Robo Striker",
+    image: "/images/cars/alphatauri.png",
+    posterImage: "/images/posters/robo_striker.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 3,
+    text: "Blind Code",
+    image: "/images/cars/mclaren.png",
+    posterImage: "/images/posters/blind_code.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 4,
+    text: "Steel Sprint",
+    image: "/images/cars/haas.png",
+    posterImage: "/images/posters/steel_sprint.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 5,
+    text: "Hackathon",
+    image: "/images/cars/bwt.png",
+    posterImage: "/images/posters/hackathon.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 6,
+    text: "Code Craft",
+    image: "/images/cars/williams.png",
+    posterImage: "/images/posters/code_craft.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 7,
+    text: "Ideathon",
+    image: "/images/cars/alfaromeo.png",
+    posterImage: "/images/posters/ideathon.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 8,
+    text: "Cad-A-Thon",
+    image: "/images/cars/renault.png",
+    posterImage: "/images/posters/cadathon.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 9,
+    text: "Debug It",
+    image: "/images/cars/redbull.png",
+    posterImage: "/images/posters/tug_of_war.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 10,
+    text: "Dron-A-Master",
+    image: "/images/cars/ferrari.png",
+    posterImage: "/images/posters/drona_master.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 11,
+    text: "Fast Duino",
+    image: "/images/cars/mclaren.png",
+    posterImage: "/images/posters/fast_duino.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 12,
+    text: "Group Debate",
+    image: "/images/cars/bwt.png",
+    posterImage: "/images/posters/group_debate.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 13,
+    text: "IPL Auction",
+    image: "/images/cars/redbull.png",
+    posterImage: "/images/posters/ipl_auction.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 14,
+    text: "Logo Quest",
+    image: "/images/cars/haas.png",
+    posterImage: "/images/posters/logo_quest.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 15,
+    text: "Tech Quiz",
+    image: "/images/cars/alphatauri.png",
+    posterImage: "/images/posters/tech_quiz.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  }
+]
+
 
 const menuItems = [
   {
@@ -154,7 +292,7 @@ const Events = () => (
   />
 
 <GlassMenu 
-      items={menuItems}
+      items={techEvents}
     />
 
 <TextPressure
