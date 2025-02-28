@@ -10,7 +10,7 @@ export default function Description() {
     return (
         <div ref={description} className="px-20 mt-20 flex justify-center">
             <div className="max-w-[1400px] flex gap-12 relative">
-                <p className="text-3xl text-brand gap-2 leading-[1.3]">
+                <p className="text-xl md:text-3xl text-brand gap-2 leading-[1.3]">
                     {phrase.split(" ").map((word, index) => (
                         <span key={index} className="relative overflow-hidden inline-flex">
                             <motion.span variants={slideUp} custom={index} animate={isInView ? "open" : "closed"} key={index} className="mr-1">
@@ -19,7 +19,7 @@ export default function Description() {
                         </span>
                     ))}
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"} className="text-lg text-brand w-4/5 font-light">
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"} className="text-sm md:text-lg text-brand w-4/5 font-light">
                 Horizon features technical workshops, artistic performances, and multidisciplinary contests, allowing students to network with industry experts, explore new technologies, and enhance their skills.
                 </motion.p>
             </div>
