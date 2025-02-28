@@ -106,8 +106,8 @@ const techEvents = [
     posterImage: "/images/posters/steel_push.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/jFDysWuEsxaw3yrw6",
+    rulebookLink: "https://docs.google.com/document/d/1jRlZ_9zwj0_31OLHflZ3J3ebV4is-D7f/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 2,
@@ -116,8 +116,8 @@ const techEvents = [
     posterImage: "/images/posters/robo_striker.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/EumaSeLcaDTWuTLy5",
+    rulebookLink: "https://docs.google.com/document/d/1rP8qzJbvwX95ME5xfQr312FabQJ86boQ/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 3,
@@ -126,8 +126,8 @@ const techEvents = [
     posterImage: "/images/posters/blind_code.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/fa2UMwJQmVuAaY869",
+    rulebookLink: "https://drive.google.com/file/d/1xaHbGP-Mma1aNsghYNnfzGxUbDFEck9x/view?usp=drive_link"
   },
   {
     number: 4,
@@ -136,8 +136,8 @@ const techEvents = [
     posterImage: "/images/posters/steel_sprint.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/Jedf642KEnZkeRMS6",
+    rulebookLink: "https://docs.google.com/document/d/1GM5VrCyjcHVcNEwi87Y0EyNdKDUVziNL/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 5,
@@ -146,8 +146,8 @@ const techEvents = [
     posterImage: "/images/posters/hackathon.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/8A7QHJr2a6MGD5ww8",
+    rulebookLink: "https://drive.google.com/file/d/1Pp3Xb6zwk3eCysWUcVgpq1wDzXgXkClO/view?usp=drive_link"
   },
   {
     number: 6,
@@ -156,8 +156,8 @@ const techEvents = [
     posterImage: "/images/posters/code_craft.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/EQ5LJLmvbMoVoS6U9",
+    rulebookLink: "https://drive.google.com/file/d/1g_LG5yP2GhvCZbeg56JfA9XuK9qk8khj/view?usp=drive_link"
   },
   {
     number: 7,
@@ -167,7 +167,7 @@ const techEvents = [
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
     registerButtonLink: "/",
-    rulebookLink: "/"
+    rulebookLink: "https://drive.google.com/file/d/1CkTnVVFzzkNmRhRyy1AltpfVBFQA3Z4P/view?usp=drive_link"
   },
   {
     number: 8,
@@ -176,8 +176,8 @@ const techEvents = [
     posterImage: "/images/posters/cadathon.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/YwqmNHfdnxVMkueY9",
+    rulebookLink: "https://docs.google.com/document/d/1GLcxTCn6Ia_qomJBVdRq7gin4BaRokje/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 9,
@@ -186,8 +186,8 @@ const techEvents = [
     posterImage: "/images/posters/tug_of_war.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/si7HtAGtRyNxo1BY8",
+    rulebookLink: "https://drive.google.com/file/d/16YQ0l4Bto7_LIyMI2NrDTCUUsCIONKK0/view?usp=drive_link"
   },
   {
     number: 10,
@@ -196,8 +196,8 @@ const techEvents = [
     posterImage: "/images/posters/drona_master.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/zbJUwVoZg96Qqw659",
+    rulebookLink: "https://docs.google.com/document/d/196XpjiATaraR6wF3NUUln3uQKB1FGblS/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 11,
@@ -206,8 +206,8 @@ const techEvents = [
     posterImage: "/images/posters/fast_duino.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/ADJpYQVyMb5jUZeu9",
+    rulebookLink: "https://docs.google.com/document/d/1zo0DOiA2QiTZ2_Y1CQmmXzcHjYBE5nE5/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 12,
@@ -226,8 +226,8 @@ const techEvents = [
     posterImage: "/images/posters/ipl_auction.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/zGTch2gmZ6fQiatr9",
+    rulebookLink: "https://drive.google.com/file/d/1oA8LpagIkvXEaOViuoaM1EyyjPmI6afP/view?usp=drive_link"
   },
   {
     number: 14,
@@ -236,8 +236,8 @@ const techEvents = [
     posterImage: "/images/posters/logo_quest.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/kfZJdx9YQs71YjDc9",
+    rulebookLink: "https://docs.google.com/document/d/1_bNFhr8ScFhAECYXJechXqVk9Zy8sdNM/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 15,
@@ -246,8 +246,8 @@ const techEvents = [
     posterImage: "/images/posters/tech_quiz.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
+    registerButtonLink: "https://forms.gle/L9gqVZVRM71YQqbJ8",
+    rulebookLink: "https://docs.google.com/document/d/1d2RSGYGB4ZCC681HIM5oCjfTtNwm6IR3/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   }
 ]
 
