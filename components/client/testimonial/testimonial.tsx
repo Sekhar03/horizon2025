@@ -17,7 +17,7 @@ const data = [
         <p className='text-gray-300'>09:00 AM at e-Learning Center (EDUSAT), Old Building</p>
 
         <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Literary Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>MUN</li><li>Doodling</li><li>Wordless Wonders</li><li>Poet's Beat</li><li>Spelling Bee</li><li>Trivia Quiz</li><li>Wordsmith Maze</li></ul>
+        <ul className='list-disc pl-5 text-gray-300'><li>MUN</li><li>Doodling</li><li>Wordless Wonders</li><li>Poet&apos;s Beat</li><li>Spelling Bee</li><li>Trivia Quiz</li><li>Wordsmith Maze</li></ul>
 
         <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Technical Events</h3>
         <ul className='list-disc pl-5 text-gray-300'><li>Steel Sprint</li><li>Drone Workshop</li><li>BlindCode</li><li>SteelPush</li><li>Ideathon</li><li>Hackathon</li><li>RoboStrikers</li></ul>
@@ -39,7 +39,7 @@ const data = [
         <ul className='list-disc pl-5 text-gray-300'><li>CodeCraft</li><li>Dron-a-Master</li></ul>
 
         <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Fun Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Rubik's Cube</li><li>Paper Dance</li></ul>
+        <ul className='list-disc pl-5 text-gray-300'><li>Rubik&apos;s Cube</li><li>Paper Dance</li></ul>
 
         <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Cultural Events</h3>
         <ul className='list-disc pl-5 text-gray-300'><li>Merchandise Design</li><li>AI Art</li></ul>
