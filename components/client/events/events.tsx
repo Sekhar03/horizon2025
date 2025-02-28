@@ -3,6 +3,20 @@ import { WidgetWrapper } from "@/components/global/WidgetWrapper";
 import GlassMenu from "@/components/style/GlassMenu";
 import ScrollReveal from "@/components/style/ScrollReveal";
 import TextPressure from "@/components/style/TextPressure";
+import { register } from "module";
+
+//config for events
+const funEvents = [
+  {
+    number: 1,
+    text: "Rubik's Cube",
+    image: "/images/ferrari.png",
+    posterImage: "/images/posters/rubiks_cube.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  }
+]
 
 
 const menuItems = [
@@ -51,11 +65,28 @@ const Events = () => (
   />
 
   <GlassMenu 
-      items={menuItems}
+      items={funEvents}
     />
 
   <TextPressure
     text="Tech!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#ffffff"
+    strokeColor="#ff0000"
+    minFontSize={26}
+  />
+
+<GlassMenu 
+      items={menuItems}
+    />
+
+<TextPressure
+    text="Cultural!"
     flex={true}
     alpha={false}
     stroke={false}

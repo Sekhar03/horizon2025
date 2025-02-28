@@ -13,6 +13,7 @@ interface MenuItemProps {
   posterImage: string;
   description: string;
   number: number;
+  registerButtonTitle?: string;
 }
 
 interface GlassMenuProps {
@@ -36,7 +37,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
   image, 
   posterImage, 
   description, 
-  number 
+  number,
+  registerButtonTitle 
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const itemRef = useRef<HTMLDivElement>(null);
@@ -150,11 +152,16 @@ const MenuItem: React.FC<MenuItemProps> = ({
         >
           <div className="p-4 sm:p-6 border-t border-gray-700">
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-              <div className="flex-1">
+              <div className="flex-1 gap-4">
                 <p className="text-gray-300 mb-4 text-sm sm:text-base">{description}</p>
-                <button className="w-full sm:w-auto px-6 py-2 bg-red-600 hover:bg-red-700 text-white rounded-full transition-colors duration-300">
+                <div className='flex gap-6'>
+                <button className="w-full sm:w-auto px-6 py-2 bg-red-600 hover:bg-red-700 text-white rounded-full transition-colors duration-300 gap-6">
                   View Events
                 </button>
+                <button className="w-full sm:w-auto px-6 py-2 bg-red-600 hover:bg-red-700 text-white rounded-full transition-colors duration-300">
+                  {registerButtonTitle}
+                </button>
+                </div>
               </div>
               <div ref={posterImageRef} className="w-full sm:w-64 h-48 sm:h-64 rounded-lg overflow-hidden flex-shrink-0">
                 <img src={posterImage} alt="Poster" className="w-full h-full object-cover" />
