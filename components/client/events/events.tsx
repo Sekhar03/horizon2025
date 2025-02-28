@@ -10,8 +10,80 @@ const funEvents = [
   {
     number: 1,
     text: "Rubik's Cube",
-    image: "/images/ferrari.png",
+    image: "/images/cars/ferrari.png",
     posterImage: "/images/posters/rubiks_cube.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 2,
+    text: "Scavenger Hunt",
+    image: "/images/cars/redbull.png",
+    posterImage: "/images/posters/scavengers_hunt.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 3,
+    text: "Paper Dance",
+    image: "/images/cars/bwt.png",
+    posterImage: "/images/posters/paper_dance.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 4,
+    text: "Mystery Room",
+    image: "/images/cars/mclaren.png",
+    posterImage: "/images/posters/mystery_room.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 5,
+    text: "Digital Duel",
+    image: "/images/cars/mercedes.png",
+    posterImage: "/images/posters/digital_duel.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 6,
+    text: "Gully Cricket",
+    image: "/images/cars/williams.png",
+    posterImage: "/images/posters/gully_cricket.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 7,
+    text: "Destiny Duo",
+    image: "/images/cars/alphatauri.png",
+    posterImage: "/images/posters/destiny_duo.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 8,
+    text: "Burst The Balloon",
+    image: "/images/cars/alfaromeo.png",
+    posterImage: "/images/posters/burst_the_balloon.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 9,
+    text: "Tug Of War",
+    image: "/images/cars/renault.png",
+    posterImage: "/images/posters/tug_of_war.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
     link: "/events"

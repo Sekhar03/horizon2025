@@ -163,7 +163,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 </button>
                 </div>
               </div>
-              <div ref={posterImageRef} className="w-full sm:w-64 h-48 sm:h-64 rounded-lg overflow-hidden flex-shrink-0">
+              <div ref={posterImageRef} className="w-full sm:w-64 h-full sm:h-full rounded-lg overflow-hidden flex-shrink-0">
                 <img src={posterImage} alt="Poster" className="w-full h-full object-cover" />
               </div>
             </div>
