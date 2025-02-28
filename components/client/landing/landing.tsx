@@ -16,7 +16,7 @@ export default function Landing() {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-1/2 max-w-sm md:max-w-sm lg:max-w-md mx-auto">
           <Image
-            src="/logos/Black-Text-Logo.svg" //change it to White or Red for more logo colours
+            src="/logos/White-Text-Logo.svg" //change it to White or Red for more logo colours
             alt="Logo"
             width={600} // Provide a default width
             height={600} // Provide a default height

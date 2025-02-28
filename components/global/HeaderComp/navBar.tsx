@@ -9,6 +9,7 @@ import Wrapper from "./wrapper";
 import { Button } from "@/components/ui/button";
 import Menu from "./menu";
 import MobileMenu from "./mobileMenu"; 
+import Image from "next/image";
 
 const Navbar = () => {
 
@@ -41,7 +42,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between w-full sticky mt-[7px] lg:mt-auto mb-auto inset-x-0">
                         <div className="flex items-center flex-1 lg:flex-none pl-1">
                             <Link href="/" className="text-lg font-semibold text-foreground">
-                                <Icons.icon className="w-auto h-5" />
+                                <Image src={"/logos/logomark.png"} width={30} height={30} alt="logo"/>
                             </Link>
                             <div className="items-center hidden ml-4 lg:flex">
                                 <Menu />
@@ -50,8 +51,8 @@ const Navbar = () => {
                         <div className="items-center flex gap-2 lg:gap-4">
                                 <>
                                     <Button size="sm" variant="brand" asChild className="hidden sm:flex">
-                                        <Link href="/auth/signup">
-                                            Join us
+                                        <Link href="https://konfhub.com/c2d23ee1-d06e-4fa9-a5e0-b820a1470a84">
+                                            Join with us
                                             <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
                                         </Link>
                                     </Button>

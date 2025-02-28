@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
 
 export default function Description() {
-    const phrase = "Helping brands to stand out in the digital era. Together we will set the new status quo. No nonsense, always on the cutting edge.";
+    const phrase = "Horizon, the Techno-Cultural-Lit Fest of IGIT, Sarang, attracts over 5000 enthusiastic thinkers, fostering a welcoming environment to expand knowledge for societal benefit";
     const description = useRef<HTMLDivElement>(null);
     const isInView = useInView(description);
 
@@ -20,7 +20,7 @@ export default function Description() {
                     ))}
                 </p>
                 <motion.p variants={opacity} animate={isInView ? "open" : "closed"} className="text-lg text-brand w-4/5 font-light">
-                    The combination of my passion for design, code & interaction positions me in a unique place in the web design world.
+                Horizon features technical workshops, artistic performances, and multidisciplinary contests, allowing students to network with industry experts, explore new technologies, and enhance their skills.
                 </motion.p>
             </div>
         </div>

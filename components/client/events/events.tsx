@@ -1,7 +1,7 @@
 import { HeadLine } from "@/components/global/HeadLine";
 import { WidgetWrapper } from "@/components/global/WidgetWrapper";
 import GlassMenu from "@/components/style/GlassMenu";
-import ScrollReveal from "@/components/style/ScrollReveal";
+// import ScrollReveal from "@/components/style/ScrollReveal";
 import TextPressure from "@/components/style/TextPressure";
 
 //config for events
@@ -377,7 +377,7 @@ const Events = () => (
       items={culturalEvents}
     />
 
-  <ScrollReveal
+  {/* <ScrollReveal
   baseOpacity={0}
   enableBlur={true}
   baseRotation={5}
@@ -387,7 +387,7 @@ const Events = () => (
   When does a man die? When he is hit by a bullet? No! When he suffers a disease?
   No! When he ate a soup made out of a poisonous mushroom?
   No! A man dies when he is forgotten!
-</ScrollReveal>
+</ScrollReveal> */}
 
   </WidgetWrapper>
 );
