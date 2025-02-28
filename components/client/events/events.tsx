@@ -13,7 +13,8 @@ const funEvents = [
     posterImage: "/images/posters/rubiks_cube.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    rulebookLink: "https://docs.google.com/document/d/1Vwbr1jV9CTfypuR7AR-wiNVO5ny2PsVq/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true",
+    registerButtonLink: "https://forms.gle/zPSfcBeTfVFJDbqo9"
   },
   {
     number: 2,
@@ -22,7 +23,8 @@ const funEvents = [
     posterImage: "/images/posters/scavengers_hunt.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/events",
+    rulebookLink: "/events"
   },
   {
     number: 3,
@@ -31,7 +33,8 @@ const funEvents = [
     posterImage: "/images/posters/paper_dance.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    rulebookLink: "https://docs.google.com/document/d/1W5Krk_eLFlzu0cKMAz9_Ms3U-gdjQ-If/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true",
+    registerButtonLink: "https://forms.gle/cZnu417h4DUTvEQr7"
   },
   {
     number: 4,
@@ -40,7 +43,8 @@ const funEvents = [
     posterImage: "/images/posters/mystery_room.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "https://forms.gle/HDcJ3DGWAJpL2JRf7",
+    rulebookLink: "https://docs.google.com/document/d/1WDwV5L2f_mhh9Wb_pk5sIN53wdvzb0H6/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
     number: 5,
@@ -49,7 +53,8 @@ const funEvents = [
     posterImage: "/images/posters/digital_duel.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 6,
@@ -58,7 +63,8 @@ const funEvents = [
     posterImage: "/images/posters/gully_cricket.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 7,
@@ -67,7 +73,8 @@ const funEvents = [
     posterImage: "/images/posters/destiny_duo.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 8,
@@ -76,7 +83,8 @@ const funEvents = [
     posterImage: "/images/posters/burst_the_balloon.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 9,
@@ -85,7 +93,8 @@ const funEvents = [
     posterImage: "/images/posters/tug_of_war.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   }
 ]
 
@@ -97,7 +106,8 @@ const techEvents = [
     posterImage: "/images/posters/steel_push.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 2,
@@ -106,7 +116,8 @@ const techEvents = [
     posterImage: "/images/posters/robo_striker.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 3,
@@ -115,7 +126,8 @@ const techEvents = [
     posterImage: "/images/posters/blind_code.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 4,
@@ -124,7 +136,8 @@ const techEvents = [
     posterImage: "/images/posters/steel_sprint.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 5,
@@ -133,7 +146,8 @@ const techEvents = [
     posterImage: "/images/posters/hackathon.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 6,
@@ -142,7 +156,8 @@ const techEvents = [
     posterImage: "/images/posters/code_craft.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 7,
@@ -151,7 +166,8 @@ const techEvents = [
     posterImage: "/images/posters/ideathon.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 8,
@@ -160,7 +176,8 @@ const techEvents = [
     posterImage: "/images/posters/cadathon.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 9,
@@ -169,7 +186,8 @@ const techEvents = [
     posterImage: "/images/posters/tug_of_war.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 10,
@@ -178,7 +196,8 @@ const techEvents = [
     posterImage: "/images/posters/drona_master.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 11,
@@ -187,7 +206,8 @@ const techEvents = [
     posterImage: "/images/posters/fast_duino.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 12,
@@ -196,7 +216,8 @@ const techEvents = [
     posterImage: "/images/posters/group_debate.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 13,
@@ -205,7 +226,8 @@ const techEvents = [
     posterImage: "/images/posters/ipl_auction.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 14,
@@ -214,7 +236,8 @@ const techEvents = [
     posterImage: "/images/posters/logo_quest.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 15,
@@ -223,7 +246,8 @@ const techEvents = [
     posterImage: "/images/posters/tech_quiz.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   }
 ]
 
@@ -235,7 +259,8 @@ const culturalEvents = [
     posterImage: "/images/posters/ai_art.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 2,
@@ -244,7 +269,8 @@ const culturalEvents = [
     posterImage: "/images/posters/choreo_clash.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 3,
@@ -253,7 +279,8 @@ const culturalEvents = [
     posterImage: "/images/posters/debonair.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 4,
@@ -262,7 +289,8 @@ const culturalEvents = [
     posterImage: "/images/posters/falsh_mob.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 5,
@@ -271,7 +299,8 @@ const culturalEvents = [
     posterImage: "/images/posters/flash_film.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 6,
@@ -280,7 +309,8 @@ const culturalEvents = [
     posterImage: "/images/posters/heritage_dance.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 7,
@@ -289,7 +319,8 @@ const culturalEvents = [
     posterImage: "/images/posters/logo_craft.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 8,
@@ -298,7 +329,8 @@ const culturalEvents = [
     posterImage: "/images/posters/merchandise.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 9,
@@ -307,7 +339,8 @@ const culturalEvents = [
     posterImage: "/images/posters/nach_baliye.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
   {
     number: 10,
@@ -316,7 +349,81 @@ const culturalEvents = [
     posterImage: "/images/posters/photo_of_the_day.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
-    link: "/events"
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+]
+
+const literaryEvents = [
+  {
+    number: 1,
+    text: "Doodling",
+    image: "/images/cars/bwt.png",
+    posterImage: "/images/posters/doodling.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+  {
+    number: 2,
+    text: "Identity Insight",
+    image: "/images/cars/mclaren.png",
+    posterImage: "/images/posters/identity_insight.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+  {
+    number: 3,
+    text: "MUN",
+    image: "/images/cars/ferrari.png",
+    posterImage: "/images/posters/mun.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+  {
+    number: 4,
+    text: "Poets Beat",
+    image: "/images/cars/mercedes.png",
+    posterImage: "/images/posters/poets_beat.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+  {
+    number: 5,
+    text: "Spell Bee",
+    image: "/images/cars/redbull.png",
+    posterImage: "/images/posters/spell_bee.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+  {
+    number: 6,
+    text: "Trivia Quiz",
+    image: "/images/cars/renault.png",
+    posterImage: "/images/posters/trivia_quiz.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
+  },
+  {
+    number: 7,
+    text: "Wordless Wonders",
+    image: "/images/cars/alfaromeo.png",
+    posterImage: "/images/posters/wordless_wonder.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    registerButtonLink: "/",
+    rulebookLink: "/"
   },
 ]
 
@@ -375,6 +482,23 @@ const Events = () => (
 
 <GlassMenu 
       items={culturalEvents}
+    />
+
+<TextPressure
+    text="Literary!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#ffffff"
+    strokeColor="#ff0000"
+    minFontSize={26}
+  />
+
+<GlassMenu 
+      items={literaryEvents}
     />
 
   {/* <ScrollReveal

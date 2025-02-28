@@ -4,6 +4,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useRouter } from 'next/navigation';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,6 +15,8 @@ interface MenuItemProps {
   description: string;
   number: number;
   registerButtonTitle?: string;
+  registerButtonLink: string;
+  rulebookLink: string;
 }
 
 interface GlassMenuProps {
@@ -38,7 +41,9 @@ const MenuItem: React.FC<MenuItemProps> = ({
   posterImage, 
   description, 
   number,
-  registerButtonTitle 
+  registerButtonTitle,
+  registerButtonLink,
+  rulebookLink
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const itemRef = useRef<HTMLDivElement>(null);
@@ -46,6 +51,16 @@ const MenuItem: React.FC<MenuItemProps> = ({
   const imageRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const posterImageRef = useRef<HTMLDivElement>(null);
+
+  const router = useRouter();
+
+  const onViewRulebook = () => {
+    router.push(rulebookLink);
+  }
+
+  const onRegister = () => {
+    router.push(registerButtonLink);
+  }
 
   useEffect(() => {
     if (textRef.current) {
@@ -155,10 +170,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
               <div className="flex-1 gap-4">
                 <p className="text-gray-300 mb-4 text-sm sm:text-base">{description}</p>
                 <div className='flex gap-6'>
-                <button className="w-full sm:w-auto px-6 py-2 bg-brand hover:bg-brand/80 text-white rounded-full transition-colors duration-300 gap-6">
-                  View Events
+                <button onClick={onViewRulebook} className="w-full sm:w-auto px-6 py-2 bg-brand hover:bg-brand/80 text-white rounded-full transition-colors duration-300 gap-6">
+                  View Rulebook
                 </button>
-                <button className="w-full sm:w-auto px-6 py-2 bg-brand hover:bg-brand/80 text-white rounded-full transition-colors duration-300">
+                <button onClick={onRegister} className="w-full sm:w-auto px-6 py-2 bg-brand hover:bg-brand/80 text-white rounded-full transition-colors duration-300">
                   {registerButtonTitle}
                 </button>
                 </div>
