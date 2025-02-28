@@ -3,7 +3,6 @@ import { WidgetWrapper } from "@/components/global/WidgetWrapper";
 import GlassMenu from "@/components/style/GlassMenu";
 import ScrollReveal from "@/components/style/ScrollReveal";
 import TextPressure from "@/components/style/TextPressure";
-import { register } from "module";
 
 //config for events
 const funEvents = [
@@ -228,34 +227,100 @@ const techEvents = [
   }
 ]
 
-
-const menuItems = [
+const culturalEvents = [
   {
     number: 1,
-    text: "Blind Code",
-    image: "/images/ferrari.png",
-    posterImage: "/images/ferrari.png",
+    text: "AI Art",
+    image: "/images/cars/mclaren.png",
+    posterImage: "/images/posters/ai_art.jpg",
     description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
     link: "/events"
   },
   {
     number: 2,
-    text: "Blind Code",
-    image: "/images/ferrari.png",
-    posterImage: "/images/ferrari.png",
+    text: "Choreo Clash",
+    image: "/images/cars/redbull.png",
+    posterImage: "/images/posters/choreo_clash.jpg",
     description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
     link: "/events"
   },
   {
     number: 3,
-    text: "Blind Code",
-    image: "/images/ferrari.png",
-    posterImage: "/images/ferrari.png",
+    text: "Debonair",
+    image: "/images/cars/ferrari.png",
+    posterImage: "/images/posters/debonair.jpg",
     description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
     link: "/events"
   },
-  // ... more items
-];
+  {
+    number: 4,
+    text: "FlashMob",
+    image: "/images/cars/mercedes.png",
+    posterImage: "/images/posters/falsh_mob.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 5,
+    text: "Flash Film",
+    image: "/images/cars/renault.png",
+    posterImage: "/images/posters/flash_film.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 6,
+    text: "Heritage Dance",
+    image: "/images/cars/bwt.png",
+    posterImage: "/images/posters/heritage_dance.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 7,
+    text: "Logo Craft",
+    image: "/images/cars/alfaromeo.png",
+    posterImage: "/images/posters/logo_craft.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 8,
+    text: "Merchandise",
+    image: "/images/cars/haas.png",
+    posterImage: "/images/posters/merchandise.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 9,
+    text: "Nach Baliye",
+    image: "/images/cars/renault.png",
+    posterImage: "/images/posters/nach_baliye.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+  {
+    number: 10,
+    text: "Photo Of The Day",
+    image: "/images/cars/alphatauri.png",
+    posterImage: "/images/posters/photo_of_the_day.jpg",
+    description: "Code without seeing the screen, show your skills",
+    registerButtonTitle: "Register",
+    link: "/events"
+  },
+]
+
+
 
 const Events = () => (
 
@@ -309,7 +374,7 @@ const Events = () => (
   />
 
 <GlassMenu 
-      items={menuItems}
+      items={culturalEvents}
     />
 
   <ScrollReveal
