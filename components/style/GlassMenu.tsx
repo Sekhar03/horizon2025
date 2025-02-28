@@ -125,8 +125,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
           </div>
 
           {/* Team Name */}
-          <div className="flex-1 min-w-0" ref={textRef}>
-            <h2 className="text-xl sm:text-4xl font-bold text-white tracking-wider truncate">
+            <div className="flex-1 min-w-0" ref={textRef}>
+            <h2 className="text-xs sm:text-4xl font-bold text-white">
               {text}
             </h2>
           </div>
