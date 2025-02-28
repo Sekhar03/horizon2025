@@ -361,51 +361,44 @@ class App {
         //gallery component
       {
         image: "/static/2.jpg",
-        text: "Bridge",
       },
       {
         image: "/static/4.jpeg",
-        text: "Desk Setup",
       },
       {
-        image: "/static/5.jpg",
-        text: "Waterfall",
-      },
+        image: "/static/5.jpg",      },
       {
         image: "/static/7.jpg",
-        text: "Strawberries",
       },
       {
         image: "/static/8.jpg",
-        text: "Deep Diving",
       },
       {
         image: `https://picsum.photos/seed/16/800/600?grayscale`,
-        text: "Train Track",
       },
       {
         image: `https://picsum.photos/seed/17/800/600?grayscale`,
-        text: "Santorini",
+        
       },
       {
         image: `https://picsum.photos/seed/8/800/600?grayscale`,
-        text: "Blurry Lights",
+        
       },
       {
         image: `https://picsum.photos/seed/9/800/600?grayscale`,
-        text: "New York",
+        
       },
       {
         image: `https://picsum.photos/seed/10/800/600?grayscale`,
-        text: "Good Boy",
+        
       },
       {
         image: `https://picsum.photos/seed/21/800/600?grayscale`,
-        text: "Coastline",
+        
       },
       {
         image: `https://picsum.photos/seed/12/800/600?grayscale`,
-        text: "Palm Trees",
+        
       },
     ];
     const galleryItems = items && items.length ? items : defaultItems;

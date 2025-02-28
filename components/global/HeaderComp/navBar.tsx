@@ -50,7 +50,7 @@ const Navbar = () => {
                         </div>
                         <div className="items-center flex gap-2 lg:gap-4">
                                 <>
-                                    <Button size="sm" variant="brand" asChild className="hidden sm:flex">
+                                    <Button size="sm" variant="brand" asChild className="sm:flex">
                                         <Link href="https://konfhub.com/c2d23ee1-d06e-4fa9-a5e0-b820a1470a84">
                                             Join with us
                                             <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
@@ -60,7 +60,10 @@ const Navbar = () => {
                             <Button
                                 size="icon"
                                 variant="ghost"
-                                onClick={() => setIsOpen((prev) => !prev)}
+                                onClick={() => {
+                                    setIsOpen(!isOpen); // Toggle the state instead of just setting to false
+                                    document.body.style.overflow = !isOpen ? 'hidden' : ''; // Toggle body overflow
+                                }}
                                 className="lg:hidden p-2 w-8 h-8"
                             >
                                 {isOpen ? <XIcon className="w-4 h-4 duration-300" /> : <Icons.menu className="w-3.5 h-3.5 duration-300" />}

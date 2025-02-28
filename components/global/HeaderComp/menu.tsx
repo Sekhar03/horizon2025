@@ -1,7 +1,7 @@
 "use client"
 
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
-import { CircleHelp, Newspaper, SparkleIcon, CpuIcon, AtomIcon } from 'lucide-react';
+import { SparkleIcon, CpuIcon, AtomIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import Icons from "./icons"; 
@@ -72,7 +72,7 @@ const Menu = () => {
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem>
+                {/* <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
                         Resources
                     </NavigationMenuTrigger>
@@ -86,7 +86,7 @@ const Menu = () => {
                             </Item>
                         </ul>
                     </NavigationMenuContent>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
             </NavigationMenuList>
         </NavigationMenu>
     )

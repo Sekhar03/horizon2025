@@ -6,6 +6,7 @@ import localFont from 'next/font/local'
 import "./globals.css";
 import { ThemeProvider } from "@/providers/themeProvider";
 import Navbar from "@/components/global/HeaderComp/navBar";
+import Footer from "@/components/client/footer/footer";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -42,6 +43,7 @@ export default function RootLayout({
           >
           <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
