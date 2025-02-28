@@ -1,7 +1,7 @@
 "use client"
 
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
-import { CalendarRangeIcon, CircleHelp, HashIcon, Newspaper, UsersIcon } from 'lucide-react';
+import { CircleHelp, Newspaper, SparkleIcon, CpuIcon, AtomIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import Icons from "./icons"; 
@@ -18,7 +18,7 @@ const Menu = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
                             Home
                         </NavigationMenuLink>
@@ -46,14 +46,14 @@ const Menu = () => {
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Club instances" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-5" />}>
-                                Join offline club sessions and get notified.
+                            <Item title="Fun" href="/events" icon={<SparkleIcon className="w-5 h-5" />}>
+                                Events that are fun
                             </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-5" />}>
-                                Research and track trending technology topics.
+                            <Item title="Tech" href="/events" icon={<CpuIcon className="w-5 h-5" />}>
+                                Brainstorm with a lore
                             </Item>
-                            <Item title="Connect with peers" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-5" />}>
-                                Connect with other coders and collaborate.
+                            <Item title="Cultural" href="/events" icon={<AtomIcon className="w-5 h-5" />}>
+                                Explore cultures
                             </Item>
                         </ul>
                     </NavigationMenuContent>

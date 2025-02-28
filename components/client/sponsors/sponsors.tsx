@@ -11,7 +11,7 @@ const RollingGallery = dynamic(
 export const Sponsors = () => {
     return (
     <WidgetWrapper>
-        <HeadLine title='Sponsors' subtitle='Partners that helped us organize' titleClass='text-red-500 text-3xl md:text-5xl'/>
+        <HeadLine title='Sponsors' subtitle='Partners that helped us organize' titleClass='text-brand text-3xl md:text-5xl'/>
             <RollingGallery autoplay pauseOnHover/>
     </WidgetWrapper>
     )

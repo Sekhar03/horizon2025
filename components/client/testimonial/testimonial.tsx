@@ -57,7 +57,7 @@ const data = [
 export const Testimonials = () => {
     return (
         <WidgetWrapper>
-        <HeadLine title="Ready to get started?" subtitle="Here is the timeline" titleClass="text-2xl sm:text-3xl text-red-500"/>
+        <HeadLine title="Ready to get started?" subtitle="Here is the timeline" titleClass="text-2xl sm:text-3xl text-brand"/>
         <Timeline data={data}/>
       </WidgetWrapper>
     )
