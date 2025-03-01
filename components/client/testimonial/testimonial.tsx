@@ -8,25 +8,49 @@ const data = [
   {
     title: "7th March 2025",
     content: (
-      <div className='space-y-4'>
+      <div className="space-y-4">
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Technical Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>CAD-E-THON (10:00 AM - New Building)</li>
+          <li>TechQuiz (10:00 AM - New Building, Hall 3)</li>
+          <li>Guess The Logo (11:00 AM - New Building, Room 401, 402)</li>
+          <li>Hackathon (2:00 PM - New Building, Hall 3)</li>
+          <li>BlindCode (2:00 PM - New Building, Room 401, 402)</li>
+          <li>Code Craft (3:00 PM - New Building, Hall 3)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Opening Ceremony</h3>
-        <p className='text-gray-300'>10:00 AM at Gopabandhu Auditorium</p>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Cultural Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Flash Mob (4:30 PM - SBI Front)</li>
+          <li>Heritage Dance (5:00 PM - Stage)</li>
+          <li>IPL Auction (6:00 PM - New Building, Hall 3)</li>
+          <li>Nukkad (6:30 PM - Mushi Square)</li>
+          <li>Choreo Clash (7:30 PM - Stage)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Inauguration of Horizon-2K24</h3>
-        <p className='text-gray-300'>09:00 AM at e-Learning Center (EDUSAT), Old Building</p>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Scavenger Hunt (10:00 AM - Dome)</li>
+          <li>Mystery Room (11:00 AM - Educate Room)</li>
+          <li>AI Art Competition (Online)</li>
+          <li>Digital Duel (Online)</li>
+          <li>Merchandise Design (Online)</li>
+          <li>Tug Of War (2:00 PM - Production Seminar Hall)</li>
+          <li>Paper Dance (2:00 PM - Auditorium)</li>
+          <li>Brust The Balloon (2:00 PM - Dome)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Literary Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>MUN</li><li>Doodling</li><li>Wordless Wonders</li><li>Poet&apos;s Beat</li><li>Spelling Bee</li><li>Trivia Quiz</li><li>Wordsmith Maze</li></ul>
-
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Technical Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Steel Sprint</li><li>Drone Workshop</li><li>BlindCode</li><li>SteelPush</li><li>Ideathon</li><li>Hackathon</li><li>RoboStrikers</li></ul>
-
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Fun Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Gully Cricket</li><li>Burst the Balloons</li><li>Mystery Room</li><li>Digital Duel</li></ul>
-
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Cultural Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Logo Design</li><li>Graffiti</li><li>Nukkad</li><li>Flashmob</li><li>Debonair</li><li>Heritage Dances</li></ul>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Literary Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Identity Insight (11:00 AM - Production Seminar Hall)</li>
+          <li>Mun (9:00 AM - Educate Room)</li>
+          <li>Spell Bee (2:00 PM - Production Seminar Hall)</li>
+        </ul>
+        
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Workshop and Training on EV (5 hours - Room No. 102)</li>
+        </ul>
       </div>
     ),
   },
@@ -34,17 +58,40 @@ const data = [
     title: "8th March 2025",
     content: (
       <div className="space-y-4">
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Technical Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>SteelSprint (10:00 AM - New Building)</li>
+          <li>DronaMaster (10:00 AM - MP Memorial Stadium)</li>
+          <li>Ideathon (10:00 AM - New Building, Hall 3)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Technical Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>CodeCraft</li><li>Dron-a-Master</li></ul>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Cultural Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Nachbaliye (6:30 PM - Stage)</li>
+          <li>Debonair (7:30 PM - Stage)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Fun Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Rubik&apos;s Cube</li><li>Paper Dance</li></ul>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Rubik&apos;s Cube (9:00 AM - Educate Room)</li>
+          <li>Logo Design (10:00 AM - Dome)</li>
+          <li>Doodling (11:00 AM - New Building, Room 103)</li>
+          <li>Grafitti (2:00 PM - Old Building)</li>
+          <li>Photo Of The Day (Online)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Cultural Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Merchandise Design</li><li>AI Art</li></ul>
-
-        <h2 className="text-gray-500 text-xl font-semibold">And many more ....</h2>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Literary Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Poets Beat (11:00 AM - Educate Room)</li>
+          <li>Wordsmith Maze (9:00 AM - Production Seminar Hall)</li>
+          <li>Trivia Quiz (2:00 PM - New Building, Room 204, 205)</li>
+        </ul>
+        
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Workshop Matlab (9:00 AM - Computer Centre)</li>
+          <li>Workshop and Training on EV (5 hours - Room No. 102)</li>
+        </ul>
       </div>
     ),
   },
@@ -52,21 +99,28 @@ const data = [
     title: "9th March 2025",
     content: (
       <div className="space-y-4">
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Technical Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>RoboStriker (11:00 AM - New Building)</li>
+          <li>SteelPush (10:00 AM - New Building, Hall 3)</li>
+          <li>D Bug it (2:00 PM - New Building, Room 401, 402)</li>
+        </ul>
 
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Fun Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Tug Of War</li><li>Digital Duel</li></ul>
-
-        <h3 className='text-lg md:text-2xl font-bold text-blue-600'>Cultural Events</h3>
-        <ul className='list-disc pl-5 text-gray-300'><li>Flash Film</li><li>Photo of the Day</li><li>Nach Baliye</li><li>Choreo Clash</li></ul>
-      </div>
-    ),
-  },
-  {
-    title: "9th March 2025",
-    content: (
-      <div>
-        <h3 className='text-lg font-bold text-blue-600'>Standup Comedy & DJ Night</h3>
-        <p className='text-gray-700'>06:00 PM to 11:00 PM</p>
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Fun Events</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Gully Cricket (8:00 AM - MP Memorial Stadium)</li>
+          <li>Destiny Duo (9:00 AM - New Building)</li>
+          <li>Short Film Competition (10:00 AM)</li>
+          <li>Wordless Wonders (8:00 AM - Dome)</li>
+        </ul>
+        
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
+        <ul className="list-disc pl-5 text-gray-300">
+          <li>Workshop and Training on EV (5 hours - Room No. 102)</li>
+        </ul>
+        
+        <h3 className="text-lg md:text-2xl font-bold text-blue-600">Closing Ceremony</h3>
+        <p className="text-gray-300">Evening - Details to be announced</p>
       </div>
     ),
   }
@@ -75,7 +129,7 @@ const data = [
 export const Testimonials = () => {
     return (
         <WidgetWrapper>
-            <HeadLine title="Event Timeline" />
+            <HeadLine title="Horizon 2025 Event Timeline" />
             <Timeline data={data} />
         </WidgetWrapper>
     );
