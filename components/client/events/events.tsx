@@ -126,7 +126,7 @@ const techEvents = [
     posterImage: "/images/posters/blind_code.jpg",
     description: "Blind Code is a unique coding competition where participants are challenged to write code without seeing the screen. The event tests participants' coding skills, problem-solving abilities, and creativity in a fun and engaging way. Participants will be given a set of coding challenges and will have to write code based on verbal instructions provided by the event organizers.",
     registerButtonTitle: "Register",
-    registerButtonLink: "https://forms.gle/fa2UMwJQmVuAaY869",
+    registerButtonLink: "https://forms.gle/3pPGkw52xDum7TNu9",
     rulebookLink: "https://drive.google.com/file/d/1xaHbGP-Mma1aNsghYNnfzGxUbDFEck9x/view?usp=drive_link"
   },
   {
