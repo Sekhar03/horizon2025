@@ -445,6 +445,16 @@ const literaryEvents = [
     registerButtonLink: "https://forms.gle/ifAUky2soAPaphyBA",
     rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
   },
+  {
+    number: 7,
+    text: "Wordsmith's Maze",
+    image: "/images/cars/williams.png",
+    posterImage: "/images/posters/WORDSMITHS MAZE.png",
+    description: "It is a test of wit, knowledge, and problem-solving skills, where participants work to fill in a grid with words that intersect at specific clues. Each clue presents a challenge, requiring both critical thinking and a deep reservoir of knowledge across various topics, from history and literature to pop culture and science. As words intersect, the puzzle slowly unfolds, rewarding both speed and accuracy. This intellectually stimulating game sharpens vocabulary, enhances memory, and encourages strategic thinking. Whether tackling it alone or in teams, a Crossword competition is a sophisticated and engaging way to challenge the mind while celebrating the power of language and deduction.",
+    registerButtonTitle: "Register",
+    registerButtonLink: "https://forms.gle/Sa6NAka5RxjvVcLDA",
+    rulebookLink: "https://drive.google.com/file/d/1qZJPKj9iOEWUY2PuY5G5VKWYGZiXjx06/view?usp=drive_link"
+  },
 ]
 
 
