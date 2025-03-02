@@ -453,22 +453,6 @@ const Events = () => (
 
   <WidgetWrapper>
     <HeadLine title="Events that are Funtastic" subtitle="Horizon has been a astounding festival and these events are the reason why. We've got a little something for everyone." titleClass="text-brand text-3xl sm:text-5xl"/>
-    <TextPressure
-    text="Fun!"
-    flex={true}
-    alpha={false}
-    stroke={false}
-    width={true}
-    weight={true}
-    italic={true}
-    textColor="#ffffff"
-    strokeColor="#ff0000"
-    minFontSize={26}
-  />
-
-  <GlassMenu 
-      items={funEvents}
-    />
 
   <TextPressure
     text="Tech!"
@@ -488,23 +472,6 @@ const Events = () => (
     />
 
 <TextPressure
-    text="Cultural!"
-    flex={true}
-    alpha={false}
-    stroke={false}
-    width={true}
-    weight={true}
-    italic={true}
-    textColor="#ffffff"
-    strokeColor="#ff0000"
-    minFontSize={26}
-  />
-
-<GlassMenu 
-      items={culturalEvents}
-    />
-
-<TextPressure
     text="Literary!"
     flex={true}
     alpha={false}
@@ -519,6 +486,40 @@ const Events = () => (
 
 <GlassMenu 
       items={literaryEvents}
+    />
+
+<TextPressure
+    text="Fun!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#ffffff"
+    strokeColor="#ff0000"
+    minFontSize={26}
+  />
+
+  <GlassMenu 
+      items={funEvents}
+    />
+
+<TextPressure
+    text="Cultural!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#ffffff"
+    strokeColor="#ff0000"
+    minFontSize={26}
+  />
+
+<GlassMenu 
+      items={culturalEvents}
     />
 
   {/* <ScrollReveal
