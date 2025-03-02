@@ -445,6 +445,16 @@ const literaryEvents = [
     registerButtonLink: "https://forms.gle/LzB82sPTKkBph9w2A",
     rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
   },
+  {
+    number: 7,
+    text: "Wordless Wonders",
+    image: "/images/cars/williams.png",
+    posterImage: "/images/posters/WORDSMITHS MAZE.png",
+    description: "Wordless Wonders is a fun and engaging competition that combines the thrill of charades with the magic of literature. In this game, participants act out scenes, characters, or famous literary works, relying solely on gestures and expressions—no words allowed! The challenge lies in translating iconic moments, novels, or characters into actions, allowing teams or individuals to guess the correct answer based on their knowledge of literature. This event celebrates creativity, storytelling, and the ability to convey meaning without speaking, all while adding a playful twist to beloved literary classics.Ultimately, it is a refined and playful tribute to the world of literature, inviting participants and audiences alike to experience the written word in a whole new light.",
+    registerButtonTitle: "Register",
+    registerButtonLink: "https://forms.gle/ifAUky2soAPaphyBA",
+    rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
+  },
 ]
 
 
