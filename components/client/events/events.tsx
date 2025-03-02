@@ -447,13 +447,13 @@ const literaryEvents = [
   },
   {
     number: 7,
-    text: "Wordless Wonders",
+    text: "Wordsmith's Maze",
     image: "/images/cars/williams.png",
     posterImage: "/images/posters/WORDSMITHS MAZE.png",
-    description: "Wordless Wonders is a fun and engaging competition that combines the thrill of charades with the magic of literature. In this game, participants act out scenes, characters, or famous literary works, relying solely on gestures and expressions—no words allowed! The challenge lies in translating iconic moments, novels, or characters into actions, allowing teams or individuals to guess the correct answer based on their knowledge of literature. This event celebrates creativity, storytelling, and the ability to convey meaning without speaking, all while adding a playful twist to beloved literary classics.Ultimately, it is a refined and playful tribute to the world of literature, inviting participants and audiences alike to experience the written word in a whole new light.",
+    description: "It is a test of wit, knowledge, and problem-solving skills, where participants work to fill in a grid with words that intersect at specific clues. Each clue presents a challenge, requiring both critical thinking and a deep reservoir of knowledge across various topics, from history and literature to pop culture and science. As words intersect, the puzzle slowly unfolds, rewarding both speed and accuracy. This intellectually stimulating game sharpens vocabulary, enhances memory, and encourages strategic thinking. Whether tackling it alone or in teams, a Crossword competition is a sophisticated and engaging way to challenge the mind while celebrating the power of language and deduction.",
     registerButtonTitle: "Register",
-    registerButtonLink: "https://forms.gle/ifAUky2soAPaphyBA",
-    rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
+    registerButtonLink: "https://forms.gle/Sa6NAka5RxjvVcLDA",
+    rulebookLink: "https://drive.google.com/file/d/1qZJPKj9iOEWUY2PuY5G5VKWYGZiXjx06/view?usp=drive_link"
   },
 ]
 
