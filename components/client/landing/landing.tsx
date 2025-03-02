@@ -7,7 +7,7 @@ export default function Landing() {
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className="relative flex h-screen overflow-hidden">
       <video 
-        src='/videos/video2.mp4'
+        src='/videos/hv1final.mp4'
         autoPlay
         loop
         muted
