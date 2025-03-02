@@ -442,7 +442,7 @@ const literaryEvents = [
     posterImage: "/images/posters/wordless_wonder.jpg",
     description: "Wordless Wonders is a fun and engaging competition that combines the thrill of charades with the magic of literature. In this game, participants act out scenes, characters, or famous literary works, relying solely on gestures and expressions—no words allowed!",
     registerButtonTitle: "Register",
-    registerButtonLink: "https://forms.gle/LzB82sPTKkBph9w2A",
+    registerButtonLink: "https://forms.gle/ifAUky2soAPaphyBA",
     rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
   },
 ]
