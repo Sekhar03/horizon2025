@@ -446,7 +446,7 @@ const literaryEvents = [
     rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
   },
   {
-    number: 7,
+    number: 8,
     text: "Wordsmith's Maze",
     image: "/images/cars/williams.png",
     posterImage: "/images/posters/WORDSMITHS MAZE.png",
