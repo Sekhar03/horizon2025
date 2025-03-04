@@ -113,7 +113,7 @@ const data = [
            <li>Choreo Clash (7:30 PM - Stage)</li> 
            <li>Nach Baliye (6:30 PM - Stage)</li>
            <li>Photo Of The Day (Online)</li>
-           <li>Short Film Competition (10:00 AM)</li>
+           <li>Short Film Competition  (10:00 AM)</li>
         </ul>
 
 
