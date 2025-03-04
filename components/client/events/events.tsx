@@ -133,7 +133,7 @@ const techEvents = [
     number: 4,
     text: "Steel Sprint",
     image: "/images/cars/haas.png",
-    posterImage: "/images/posters/STEEL SPRINT.jpg",
+    posterImage: "/images/posters/STEEL SPRINT (1).png",
     description: "Steel sprint will require the participating teams to build a manually controlled robot that must clear a trail full of obstacles.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/Jedf642KEnZkeRMS6",
@@ -209,6 +209,7 @@ const techEvents = [
     registerButtonLink: "https://forms.gle/ADJpYQVyMb5jUZeu9",
     rulebookLink: "https://docs.google.com/document/d/1zo0DOiA2QiTZ2_Y1CQmmXzcHjYBE5nE5/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
+ 
   {
     number: 12,
     text: "IPL Auction",
