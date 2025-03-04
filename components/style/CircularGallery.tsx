@@ -366,7 +366,8 @@ class App {
         image: "/static/4.jpeg",
       },
       {
-        image: "/static/5.jpg",      },
+        image: "/static/5.jpg",      
+      },
       {
         image: "/static/7.jpg",
       },
@@ -378,6 +379,38 @@ class App {
       },
       {
         image: "/static/12.jpg",
+        
+      },
+      {
+        image: "/static/13.jpeg",
+        
+      },
+      {
+        image: "/static/14.jpeg",
+        
+      },
+      {
+        image: "/static/15.jpeg",
+        
+      },
+      {
+        image: "/static/16.jpeg",
+        
+      },
+      {
+        image: "/static/17.jpeg",
+      },
+      {
+        image: "/static/18.jpeg",
+      },
+      {
+        image: "/static/19.jpeg",
+      },
+      {
+        image: "/static/20.jpeg",
+      },
+      {
+        image: "/static/21.jpeg",
         
       },
     ];

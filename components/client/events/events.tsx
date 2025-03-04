@@ -103,7 +103,7 @@ const techEvents = [
     number: 1,
     text: "Steel Push",
     image: "/images/cars/mercedes.png",
-    posterImage: "/images/posters/steel_push.jpg",
+    posterImage: "/images/posters/STEEL PUSH.jpg",
     description: "Steel push is an electrifying event where participants design and build bots to compete in a strategic battle of strength and agility. The objective is to push the opponent's bot out of the circular arena while adhering to the competition's rules.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/jFDysWuEsxaw3yrw6",
@@ -113,7 +113,7 @@ const techEvents = [
     number: 2,
     text: "Robo Striker",
     image: "/images/cars/alphatauri.png",
-    posterImage: "/images/posters/robo_striker.jpg",
+    posterImage: "/images/posters/ROBO STRIKER.jpg",
     description: "RoboStrikers is an exciting event where participants design and program robots to compete in a fast-paced soccer match. The goal is to score points by manoeuvring the ball into the opponent's net while showcasing innovation, precision, and teamwork.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/EumaSeLcaDTWuTLy5",
@@ -123,17 +123,17 @@ const techEvents = [
     number: 3,
     text: "Blind Code",
     image: "/images/cars/mclaren.png",
-    posterImage: "/images/posters/blind_code.jpg",
+    posterImage: "/images/posters/BLIND CODE.jpg",
     description: "Blind Code is a unique coding competition where participants are challenged to write code without seeing the screen. The event tests participants' coding skills, problem-solving abilities, and creativity in a fun and engaging way. Participants will be given a set of coding challenges and will have to write code based on verbal instructions provided by the event organizers.",
     registerButtonTitle: "Register",
-    registerButtonLink: "https://forms.gle/fa2UMwJQmVuAaY869",
+    registerButtonLink: "https://forms.gle/3pPGkw52xDum7TNu9",
     rulebookLink: "https://drive.google.com/file/d/1xaHbGP-Mma1aNsghYNnfzGxUbDFEck9x/view?usp=drive_link"
   },
   {
     number: 4,
     text: "Steel Sprint",
     image: "/images/cars/haas.png",
-    posterImage: "/images/posters/steel_sprint.jpg",
+    posterImage: "/images/posters/STEEL SPRINT.jpg",
     description: "Steel sprint will require the participating teams to build a manually controlled robot that must clear a trail full of obstacles.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/Jedf642KEnZkeRMS6",
@@ -143,7 +143,7 @@ const techEvents = [
     number: 5,
     text: "Hackathon",
     image: "/images/cars/bwt.png",
-    posterImage: "/images/posters/hackathon.jpg",
+    posterImage: "/images/posters/HACKATHON.png",
     description: "Welcome to the 12-Hour Hackathon! This event aims to bring together creative minds to develop innovative solutions in a collaborative environment. Please read through the following rules and guidelines to ensure a smooth and enjoyable experience for all participants.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/8A7QHJr2a6MGD5ww8",
@@ -153,7 +153,7 @@ const techEvents = [
     number: 6,
     text: "Code Craft",
     image: "/images/cars/williams.png",
-    posterImage: "/images/posters/code_craft.jpg",
+    posterImage: "/images/posters/code craft.jpg",
     description: "Repliit is a competitive coding event where participants will be given a design, and they must replicate it through code as accurately as possible within the given time limit. The event tests coding skills, UI/UX implementation, and attention to detail.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/EQ5LJLmvbMoVoS6U9",
@@ -163,7 +163,7 @@ const techEvents = [
     number: 7,
     text: "Ideathon",
     image: "/images/cars/alfaromeo.png",
-    posterImage: "/images/posters/ideathon.jpg",
+    posterImage: "/images/posters/IDEATHON.png",
     description: "The Ideathon is an offline innovation challenge where participants collaborate in teams to brainstorm, design, and present innovative solutions to real-world problems.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/JSqUkjDgMDi3vKce6",
@@ -173,7 +173,7 @@ const techEvents = [
     number: 8,
     text: "Cad-A-Thon",
     image: "/images/cars/renault.png",
-    posterImage: "/images/posters/cadathon.jpg",
+    posterImage: "/images/posters/CAD-A-THON.jpg",
     description: "The CAD-E-THON is a competitive event where participants showcase their CAD modeling skills under a strict time limit of 30 minutes. The goal is to create the most accurate and creative design based on the given problem statement.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/YwqmNHfdnxVMkueY9",
@@ -183,7 +183,7 @@ const techEvents = [
     number: 9,
     text: "Debug It",
     image: "/images/cars/redbull.png",
-    posterImage: "/images/posters/tug_of_war.jpg",
+    posterImage: "/images/posters/DEBUG IT.jpg",
     description: "De-Bug It is a competitive coding event where participants will be given error-ridden code snippets. The objective is to identify and fix the errors. If the corrected code passes all the test cases successfully, the participant will be declared the winner.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/si7HtAGtRyNxo1BY8",
@@ -193,7 +193,7 @@ const techEvents = [
     number: 10,
     text: "Dron-A-Master",
     image: "/images/cars/ferrari.png",
-    posterImage: "/images/posters/drona_master.jpg",
+    posterImage: "/images/posters/DRON-A-MASTER.jpg",
     description: "Drone competitions blend the thrill of racing with the cutting-edge advancements in robotics and autonomous technologies. They offer a unique sport where drone pilots demonstrate their skill in piloting and programming.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/zbJUwVoZg96Qqw659",
@@ -203,7 +203,7 @@ const techEvents = [
     number: 11,
     text: "Fast Duino",
     image: "/images/cars/mclaren.png",
-    posterImage: "/images/posters/fast_duino.jpg",
+    posterImage: "/images/posters/FAST DUINO.jpg",
     description: "Welcome to Round 1 of the Arduino Competition! In this challenge, participants will use Arduino to create a given particular pattern of LED lighting. This tests creativity, coding skills, and understanding of Arduino programming.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/ADJpYQVyMb5jUZeu9",
@@ -213,7 +213,7 @@ const techEvents = [
     number: 12,
     text: "Group Debate",
     image: "/images/cars/bwt.png",
-    posterImage: "/images/posters/group_debate.jpg",
+    posterImage: "/images/posters/GROUP DEBATE.jpg",
     description: "Code without seeing the screen, show your skills",
     registerButtonTitle: "Register",
     registerButtonLink: "/",
@@ -223,7 +223,7 @@ const techEvents = [
     number: 13,
     text: "IPL Auction",
     image: "/images/cars/redbull.png",
-    posterImage: "/images/posters/ipl_auction.jpg",
+    posterImage: "/images/posters/IPL AUCTION.png",
     description: "Welcome to the IPL Auction Horizon 2025",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/zGTch2gmZ6fQiatr9",
@@ -243,7 +243,7 @@ const techEvents = [
     number: 15,
     text: "Tech Quiz",
     image: "/images/cars/alphatauri.png",
-    posterImage: "/images/posters/tech_quiz.jpg",
+    posterImage: "/images/posters/TECH QUIZ.jpg",
     description: "The Tech Quiz in IGIT Horizon is designed to enhance students' technical skills and knowledge through a series of rounds, each featuring a set of questions. There will be two rounds in the competition.",
     registerButtonTitle: "Register",
     registerButtonLink: "https://forms.gle/L9gqVZVRM71YQqbJ8",
@@ -442,8 +442,18 @@ const literaryEvents = [
     posterImage: "/images/posters/wordless_wonder.jpg",
     description: "Wordless Wonders is a fun and engaging competition that combines the thrill of charades with the magic of literature. In this game, participants act out scenes, characters, or famous literary works, relying solely on gestures and expressions—no words allowed!",
     registerButtonTitle: "Register",
-    registerButtonLink: "https://forms.gle/LzB82sPTKkBph9w2A",
+    registerButtonLink: "https://forms.gle/ifAUky2soAPaphyBA",
     rulebookLink: "https://drive.google.com/file/d/1w10uQL46Du1x3WDPHhlFoBmY_xGMegVx/view?usp=drive_link"
+  },
+  {
+    number: 8,
+    text: "Wordsmith's Maze",
+    image: "/images/cars/williams.png",
+    posterImage: "/images/posters/WORDSMITHS MAZE.png",
+    description: "It is a test of wit, knowledge, and problem-solving skills, where participants work to fill in a grid with words that intersect at specific clues. Each clue presents a challenge, requiring both critical thinking and a deep reservoir of knowledge across various topics, from history and literature to pop culture and science. As words intersect, the puzzle slowly unfolds, rewarding both speed and accuracy. This intellectually stimulating game sharpens vocabulary, enhances memory, and encourages strategic thinking. Whether tackling it alone or in teams, a Crossword competition is a sophisticated and engaging way to challenge the mind while celebrating the power of language and deduction.",
+    registerButtonTitle: "Register",
+    registerButtonLink: "https://forms.gle/Sa6NAka5RxjvVcLDA",
+    rulebookLink: "https://drive.google.com/file/d/1qZJPKj9iOEWUY2PuY5G5VKWYGZiXjx06/view?usp=drive_link"
   },
 ]
 
@@ -453,22 +463,6 @@ const Events = () => (
 
   <WidgetWrapper>
     <HeadLine title="Events that are Funtastic" subtitle="Horizon has been a astounding festival and these events are the reason why. We've got a little something for everyone." titleClass="text-brand text-3xl sm:text-5xl"/>
-    <TextPressure
-    text="Fun!"
-    flex={true}
-    alpha={false}
-    stroke={false}
-    width={true}
-    weight={true}
-    italic={true}
-    textColor="#ffffff"
-    strokeColor="#ff0000"
-    minFontSize={26}
-  />
-
-  <GlassMenu 
-      items={funEvents}
-    />
 
   <TextPressure
     text="Tech!"
@@ -488,23 +482,6 @@ const Events = () => (
     />
 
 <TextPressure
-    text="Cultural!"
-    flex={true}
-    alpha={false}
-    stroke={false}
-    width={true}
-    weight={true}
-    italic={true}
-    textColor="#ffffff"
-    strokeColor="#ff0000"
-    minFontSize={26}
-  />
-
-<GlassMenu 
-      items={culturalEvents}
-    />
-
-<TextPressure
     text="Literary!"
     flex={true}
     alpha={false}
@@ -519,6 +496,40 @@ const Events = () => (
 
 <GlassMenu 
       items={literaryEvents}
+    />
+
+<TextPressure
+    text="Fun!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#ffffff"
+    strokeColor="#ff0000"
+    minFontSize={26}
+  />
+
+  <GlassMenu 
+      items={funEvents}
+    />
+
+<TextPressure
+    text="Cultural!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#ffffff"
+    strokeColor="#ff0000"
+    minFontSize={26}
+  />
+
+<GlassMenu 
+      items={culturalEvents}
     />
 
   {/* <ScrollReveal

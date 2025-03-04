@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
             <h3 className="text-xl text-brand font-bold mb-4">Indira Gandhi Institute of Technology, Sarang</h3>
             <p className="text-sm">
-              Horizon is the annual techno-cultural fest of IGIT Sarang, 
+              Horizon is the annual techno-cultural-lit fest of IGIT Sarang, 
               bringing together talent, innovation, and creativity.
             </p>
           </div>
@@ -54,7 +54,7 @@ const Footer = () => {
               <a href="#" className="hover:text-[#000000]">
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="hover:text-[#FF0069]">
+              <a href="https://www.instagram.com/igit.horizon/" className="hover:text-[#FF0069]">
                 <FaInstagram size={24} />
               </a>
               <a href="#" className="hover:text-blue-400">
