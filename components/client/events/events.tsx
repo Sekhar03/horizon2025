@@ -211,16 +211,6 @@ const techEvents = [
   },
   {
     number: 12,
-    text: "Group Debate",
-    image: "/images/cars/bwt.png",
-    posterImage: "/images/posters/GROUP DEBATE.jpg",
-    description: "Code without seeing the screen, show your skills",
-    registerButtonTitle: "Register",
-    registerButtonLink: "/",
-    rulebookLink: "/"
-  },
-  {
-    number: 13,
     text: "IPL Auction",
     image: "/images/cars/redbull.png",
     posterImage: "/images/posters/IPL AUCTION.png",
@@ -230,7 +220,7 @@ const techEvents = [
     rulebookLink: "https://drive.google.com/file/d/1oA8LpagIkvXEaOViuoaM1EyyjPmI6afP/view?usp=drive_link"
   },
   {
-    number: 14,
+    number: 13,
     text: "Logo Quest",
     image: "/images/cars/haas.png",
     posterImage: "/images/posters/logo_quest.jpg",
@@ -240,7 +230,7 @@ const techEvents = [
     rulebookLink: "https://docs.google.com/document/d/1_bNFhr8ScFhAECYXJechXqVk9Zy8sdNM/edit?usp=drive_link&ouid=100570421776735561443&rtpof=true&sd=true"
   },
   {
-    number: 15,
+    number: 14,
     text: "Tech Quiz",
     image: "/images/cars/alphatauri.png",
     posterImage: "/images/posters/TECH QUIZ.jpg",
