@@ -45,7 +45,6 @@ const data = [
         <ul className="list-disc pl-5 text-gray-300">
             <li>Doodling (11:00 AM - New Building, Room 103)</li>
             <li>Wordless Wonders (8:00 AM - Dome)</li>
-             
         </ul>
         
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
