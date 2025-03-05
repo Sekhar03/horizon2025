@@ -173,13 +173,37 @@ class Media {
     });
     const img = new Image();
     img.crossOrigin = "anonymous";
-    img.src = this.image;
+    
+    // Add error handling
+    img.onerror = () => {
+      console.error(`Failed to load image: ${this.image}`);
+      // Create a 1x1 placeholder texture with a visible color instead of black
+      const canvas = document.createElement('canvas');
+      canvas.width = 1;
+      canvas.height = 1;
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
+        ctx.fillStyle = '#555555';
+        ctx.fillRect(0, 0, 1, 1);
+        texture.image = canvas;
+        this.program.uniforms.uImageSizes.value = [1, 1];
+      }
+    };
+    
+    // Make sure the image path is absolute
+    img.src = this.image.startsWith('http') ? 
+      this.image : 
+      new URL(this.image, window.location.origin).href;
+      
     img.onload = () => {
-      texture.image = img;
-      this.program.uniforms.uImageSizes.value = [
-        img.naturalWidth,
-        img.naturalHeight,
-      ];
+      // Only update texture if image loaded successfully
+      if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+        texture.image = img;
+        this.program.uniforms.uImageSizes.value = [
+          img.naturalWidth, 
+          img.naturalHeight
+        ];
+      }
     };
   }
 
@@ -220,8 +244,14 @@ class Media {
     }
 
     this.speed = scroll.current - scroll.last;
-    this.program.uniforms.uTime.value += 0.04;
-    this.program.uniforms.uSpeed.value = this.speed;
+    
+    // Only update shader timing if texture is ready
+    if (this.program && this.program.uniforms && 
+        this.program.uniforms.uTime && 
+        this.program.uniforms.uSpeed) {
+      this.program.uniforms.uTime.value += 0.04;
+      this.program.uniforms.uSpeed.value = this.speed;
+    }
 
     const planeOffset = this.plane.scale.x / 2;
     const viewportOffset = this.viewport.width / 2;
@@ -565,11 +595,19 @@ export const CircularGallery: React.FC<CircularGalleryProps> = ({
 
   useEffect(() => {
     if (!containerRef.current) return;
+    
+    // Log the environment and image paths to help with debugging
+    console.log("Environment:", process.env.NODE_ENV);
+    if (items && items.length) {
+      console.log("First image path:", items[0].image);
+    }
+    
     const app = new App(containerRef.current, {
       items,
       bend,
       borderRadius,
     });
+    
     return () => {
       app.destroy();
     };

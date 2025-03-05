@@ -41,7 +41,7 @@ export default function RootLayout({
             defaultTheme="dark"
             forcedTheme="dark"
             disableTransitionOnChange
-          >
+            >
           <Navbar />
           {children}
           <Analytics />

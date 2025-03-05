@@ -67,7 +67,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm">
-            © {new Date().getFullYear()} Horizon IGIT Sarang. All rights reserved.
+            © {new Date().getFullYear()} <a className='hover:text-brand cursor-pointer' href="https://github.com/exprays">Exprays. </a>Made with 💗.
           </p>
         </div>
       </div>
