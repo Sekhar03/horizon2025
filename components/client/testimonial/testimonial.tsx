@@ -45,7 +45,7 @@ const data = [
         <ul className="list-disc pl-5 text-gray-300">
             <li>Doodling (11:00 AM - New Building, Room 103)</li>
             <li>Wordless Wonders (8:00 AM - Dome)</li>
-             <li>Mun (9:00 AM - Edusat Room)</li>
+             
         </ul>
         
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
@@ -124,6 +124,7 @@ const data = [
           <li>Identity Insight (11:00 AM - Production Seminar Hall)</li>
           <li>Wordsmith Maze (9:00 AM - Production Seminar Hall)</li>
           <li>Trivia Quiz (2:00 PM - New Building, Room 204, 205)</li>
+          <li>Mun (9:00 AM - Edusat Room)</li>
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
