@@ -40,9 +40,10 @@ const data = [
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Literary Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-            <li>Doodling (11:00 AM - New Building, Room 103)</li>
-            <li>Wordless Wonders (8:00 AM - Dome)</li>
-            <li>Mun (9:00 AM - Edusat Room)</li>
+            <li>Doodling (8:00 AM - New Building, Room 101)</li>
+            <li>Wordless Wonders (11:00 AM - New Building Room 103)</li>
+            <li>Wordsmith's Maze (9:00 AM - Edusat Room)</li>
+            <li>Poets Beat (2:00 PM - New Building Room 101)</li>
         </ul>
         
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
@@ -82,8 +83,7 @@ const data = [
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Literary Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-          <li>Poets Beat (11:00 AM - Edusat Room)</li>
-          <li>Spell Bee (2:00 PM - Production Seminar Hall)</li>
+          <li>Spell Bee (11:00 AM - Production Seminar Hall)</li>
           <li>Mun (9:00 AM - Edusat Room)</li>
         </ul>
         
@@ -125,10 +125,9 @@ const data = [
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Literary Events</h3>
         <ul className="list-disc pl-5 text-gray-300">
-          <li>Quiz</li>
-          <li>Wordsmith Maze</li>
-          <li>Identity insight</li>
-          <li>Trivia Quiz(12pm)</li>
+          <li>Quiz (2:00 PM Productiion Seminar Hall)</li>
+          <li>Identity insight (11:00 AM New buiding Room 103)</li>
+          <li>MUN (9:00 AM Edusat Room )</li>
         </ul>
 
         <h3 className="text-lg md:text-2xl font-bold text-blue-600">Workshops</h3>
