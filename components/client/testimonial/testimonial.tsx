@@ -42,7 +42,7 @@ const data = [
         <ul className="list-disc pl-5 text-gray-300">
             <li>Doodling (8:00 AM - New Building, Room 101)</li>
             <li>Wordless Wonders (11:00 AM - New Building Room 103)</li>
-            <li>Wordsmith's Maze (9:00 AM - Edusat Room)</li>
+            <li>Wordsmiths Maze (9:00 AM - Edusat Room)</li>
             <li>Poets Beat (2:00 PM - New Building Room 101)</li>
         </ul>
         
